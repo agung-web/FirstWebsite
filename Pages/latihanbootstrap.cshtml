@@ -1,0 +1,38 @@
+@page
+@{
+    Layout=null;
+}
+<html>
+<head>
+    <title>Mengenal Grid System Bootstrap </title>
+    <meta name="viewpor" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="~/lib/bootstrap/dist/css/bootstrap.min.css">
+    <script type="text/javascript" src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="~/lib/jquery/dist/jquery.min.js"></script>
+    <style type="text/css">
+        div{
+            background: #2ea3f2;
+            text-align: center;
+            border: 1px solid #fff;
+            color: #fff;
+        }
+        </style>
+</head>
+<body>
+    <div class="container-fluid">
+       <div class="row">
+           <div class="col-md-12 col-xs-12">Ini header</div>
+           <div class="col-md-3 col-xs-12 sidebar">Ini sidebar</div>
+           <div class="col-md-12 col-xs-12">Ini footer</div>
+       </div>
+    </div>
+    <style type="text/css">
+        .konten{
+            height: 300px;
+        }
+        .sidebar{
+            height: 300px;
+        }
+    </style>
+</body>
+</html>
